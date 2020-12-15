@@ -76,7 +76,7 @@
                 android:textStyle="bold"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/TopBackground"/>
@@ -87,6 +87,8 @@
                 android:layout_below="@id/titleRecipes"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <ProgressBar
@@ -99,6 +101,7 @@
 
 
             <TextView
+                android:id="@+id/appName"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="@color/colorWhite"
