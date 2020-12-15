@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".view.home.HomeActivity">
+    tools:context=".view.searchMeals.SearchActivity">
 
     <androidx.core.widget.NestedScrollView
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -21,8 +20,9 @@
             android:layout_width="match_parent"
             android:layout_height="300dp">
             <View
+                android:id="@+id/TopBackground"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="180dp"
                 android:background="@color/colorPrimary" />
 
             <TextView
@@ -49,7 +49,7 @@
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp">
                 <EditText
-                    android:id="@+id/searchView"
+                    android:id="@+id/searchMeal"
                     android:background="@null"
                     android:singleLine="true"
                     android:hint="@string/search_your_recipes"
@@ -66,22 +66,11 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.viewpager.widget.ViewPager
-                android:id="@+id/viewPagerHeader"
-                android:foregroundGravity="center"
-                android:overScrollMode="never"
-                android:clipToPadding="false"
-                android:layout_below="@id/cardSearch"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="150dp" />
 
-            <include android:id="@+id/shimmerMeal"
-                layout="@layout/item_view_pager_header_shimmer" />
 
             <TextView
-                android:id="@+id/titleCategory"
-                android:text="@string/meal_categories"
+                android:id="@+id/titleRecipes"
+                android:text="@string/Recipes"
                 android:textSize="19sp"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
@@ -90,22 +79,24 @@
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/viewPagerHeader"/>
+                android:layout_below="@id/TopBackground"/>
+
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerCategory"
-                android:scrollbars="none"
-                android:layout_marginTop="10dp"
-                android:clipToPadding="false"
-                android:layout_below="@id/titleCategory"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:id="@+id/recyclerViewMeals"
+                android:layout_below="@id/titleRecipes"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:layout_marginBottom="50dp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_below="@id/titleRecipes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-             <include android:id="@+id/shimmerCategory"
-                layout="@layout/item_recycler_category_shimmer" />
 
             <TextView
                 android:padding="10dp"

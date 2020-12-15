@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.haerul.foodsapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -29,6 +30,8 @@
         <activity
             android:name=".view.detail.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.searchMeals.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

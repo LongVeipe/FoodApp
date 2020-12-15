@@ -30,6 +30,7 @@ import com.haerul.foodsapp.model.Categories;
 import com.haerul.foodsapp.model.Meals;
 import com.haerul.foodsapp.view.category.CategoryActivity;
 import com.haerul.foodsapp.view.detail.DetailActivity;
+import com.haerul.foodsapp.view.searchMeals.SearchActivity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -71,7 +72,7 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
             @Override
             public boolean onEditorAction(TextView view, int actionId, KeyEvent event) {
                 //TextView mealName = view.findViewById(R.id.mealName);
-                Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
                 intent.putExtra(EXTRA_SEARCH, searchView.getText().toString());
                 startActivity(intent);
 

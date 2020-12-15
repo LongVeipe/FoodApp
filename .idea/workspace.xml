@@ -9,7 +9,26 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="882d225f-3b75-4d43-8e45-df38741cfe2a" name="Default Changelist" comment="" />
+    <list default="true" id="882d225f-3b75-4d43-8e45-df38741cfe2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/haerul/foodsapp/view/category/CategoryPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/haerul/foodsapp/view/category/CategoryPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/haerul/foodsapp/view/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/haerul/foodsapp/view/home/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,13 +65,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lOzPd8Q4OoKLQlFOpqcuOPhcjK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/haerul/foodsapp/view" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -62,12 +86,14 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.645003890">
+      <recent name="com.haerul.foodsapp.view.searchMeals" />
       <recent name="com.haerul.foodsapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.haerul.foodsapp.view.search" />
       <recent name="com.haerul.foodsapp.view" />
+      <recent name="com.haerul.foodsapp" />
       <recent name="com.haerul.foodsapp.view.home" />
+      <recent name="com.haerul.foodsapp.view.search" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -157,18 +183,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1608040243619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1608040243619" />
     <state x="359" y="240" key="#PSD" timestamp="1607508152750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="359" y="240" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1607508152750" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1607939219479">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1608031479165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607939219479" />
-    <state x="507" y="277" width="618" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608021283082">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608031479165" />
+    <state x="425" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608022678301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="507" y="277" width="618" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608021283082" />
+    <state x="425" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1608022678301" />
+    <state x="507" y="277" width="618" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608022389948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="277" width="618" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608022389947" />
+    <state x="507" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1608022679424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1608022679424" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608021378255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608021378255" />
     <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1608019415513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -181,22 +223,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607505638698" />
-    <state width="1476" height="208" key="GridCell.Tab.0.bottom" timestamp="1608018610501">
+    <state width="1476" height="208" key="GridCell.Tab.0.bottom" timestamp="1608041527683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608018610501" />
-    <state width="1476" height="208" key="GridCell.Tab.0.center" timestamp="1608018610501">
+    <state width="1476" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608041527683" />
+    <state width="1476" height="208" key="GridCell.Tab.0.center" timestamp="1608041527683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608018610501" />
-    <state width="1476" height="208" key="GridCell.Tab.0.left" timestamp="1608018610501">
+    <state width="1476" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608041527683" />
+    <state width="1476" height="208" key="GridCell.Tab.0.left" timestamp="1608041527681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608018610501" />
-    <state width="1476" height="208" key="GridCell.Tab.0.right" timestamp="1608018610501">
+    <state width="1476" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608041527681" />
+    <state width="1476" height="208" key="GridCell.Tab.0.right" timestamp="1608041527683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608018610501" />
+    <state width="1476" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608041527683" />
     <state width="1476" height="208" key="GridCell.Tab.1.bottom" timestamp="1607912609074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,6 +259,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607659253323" />
+    <state x="540" y="198" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608031796628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="198" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1608031796628" />
     <state x="609" y="234" key="psd.add.library.dependency.panel.dimension" timestamp="1607508151626">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

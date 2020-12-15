@@ -6,7 +6,6 @@
  -----------------------------------------------------------------------------*/
 package com.haerul.foodsapp.view.category;
 
-//import android.support.annotation.NonNull;
 
 import android.util.Log;
 
