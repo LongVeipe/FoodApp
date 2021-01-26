@@ -17,5 +17,9 @@
 4. DU LIEU
 
 	Du lieu duoc lay thong qua API cua trang web https://themealdb.com/api.php
+	
+5. Backend: Java
+
+6. Frontend: XML
 
 
